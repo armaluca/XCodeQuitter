@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC32A2E02099B245004D9382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32A2DF2099B245004D9382 /* AppDelegate.swift */; };
+		DCD01802209B178000EC3E6C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCD01801209B178000EC3E6C /* MainMenu.xib */; };
+		DCD0180F209B1CDB00EC3E6C /* XCodeQuitterMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD0180C209B1CDB00EC3E6C /* XCodeQuitterMenu.swift */; };
+		DCD01812209B1CFD00EC3E6C /* XCodeQuitterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD01811209B1CFD00EC3E6C /* XCodeQuitterController.swift */; };
+		DCD018D1209B4F6300EC3E6C /* RHStatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD018CE209B4F6300EC3E6C /* RHStatusItemView.m */; };
+		DCD018D8209B5ABE00EC3E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD018D7209B5ABE00EC3E6C /* Assets.xcassets */; };
+		DCEE9E0C209AFB69005205D8 /* xCodeQuitterScript.command in Resources */ = {isa = PBXBuildFile; fileRef = DCEE9E0A209AFB69005205D8 /* xCodeQuitterScript.command */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC32A2DC2099B245004D9382 /* xCode quitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xCode quitter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC32A2DF2099B245004D9382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC32A2E62099B245004D9382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD01801209B178000EC3E6C /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		DCD0180C209B1CDB00EC3E6C /* XCodeQuitterMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCodeQuitterMenu.swift; sourceTree = "<group>"; };
+		DCD01811209B1CFD00EC3E6C /* XCodeQuitterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCodeQuitterController.swift; sourceTree = "<group>"; };
+		DCD018CD209B4F6300EC3E6C /* RHStatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHStatusItemView.h; sourceTree = "<group>"; };
+		DCD018CE209B4F6300EC3E6C /* RHStatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHStatusItemView.m; sourceTree = "<group>"; };
+		DCD018D2209B500300EC3E6C /* xCodeQuitter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xCodeQuitter-Bridging-Header.h"; sourceTree = "<group>"; };
+		DCD018D5209B5A9500EC3E6C /* xCode_quitter.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = xCode_quitter.entitlements; sourceTree = "<group>"; };
+		DCD018D7209B5ABE00EC3E6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCEE9E0A209AFB69005205D8 /* xCodeQuitterScript.command */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = xCodeQuitterScript.command; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC32A2D92099B245004D9382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC32A2D32099B244004D9382 = {
+			isa = PBXGroup;
+			children = (
+				DC32A2DE2099B245004D9382 /* xCode quitter */,
+				DC32A2DD2099B245004D9382 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC32A2DD2099B245004D9382 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC32A2DC2099B245004D9382 /* xCode quitter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC32A2DE2099B245004D9382 /* xCode quitter */ = {
+			isa = PBXGroup;
+			children = (
+				DC32A2DF2099B245004D9382 /* AppDelegate.swift */,
+				DCD01809209B1CB100EC3E6C /* Controller */,
+				DCD0180A209B1CDB00EC3E6C /* Views */,
+				DCEE9E08209AFB69005205D8 /* Resources */,
+				DC32A2E62099B245004D9382 /* Info.plist */,
+			);
+			path = "xCode quitter";
+			sourceTree = "<group>";
+		};
+		DCD01800209B177200EC3E6C /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				DCD01801209B178000EC3E6C /* MainMenu.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		DCD01809209B1CB100EC3E6C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DCD01811209B1CFD00EC3E6C /* XCodeQuitterController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DCD0180A209B1CDB00EC3E6C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCD018C8209B4F6300EC3E6C /* RHStatusItemView */,
+				DCD0180B209B1CDB00EC3E6C /* Menu */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DCD0180B209B1CDB00EC3E6C /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				DCD0180C209B1CDB00EC3E6C /* XCodeQuitterMenu.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		DCD018C8209B4F6300EC3E6C /* RHStatusItemView */ = {
+			isa = PBXGroup;
+			children = (
+				DCD018CD209B4F6300EC3E6C /* RHStatusItemView.h */,
+				DCD018CE209B4F6300EC3E6C /* RHStatusItemView.m */,
+			);
+			path = RHStatusItemView;
+			sourceTree = "<group>";
+		};
+		DCD018D3209B5A7A00EC3E6C /* Script */ = {
+			isa = PBXGroup;
+			children = (
+				DCEE9E0A209AFB69005205D8 /* xCodeQuitterScript.command */,
+			);
+			path = Script;
+			sourceTree = "<group>";
+		};
+		DCD018D4209B5A9500EC3E6C /* Entitlements */ = {
+			isa = PBXGroup;
+			children = (
+				DCD018D5209B5A9500EC3E6C /* xCode_quitter.entitlements */,
+			);
+			path = Entitlements;
+			sourceTree = "<group>";
+		};
+		DCD018D6209B5ABE00EC3E6C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DCD018D7209B5ABE00EC3E6C /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DCEE9E08209AFB69005205D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DCD018D6209B5ABE00EC3E6C /* Assets */,
+				DCD018D4209B5A9500EC3E6C /* Entitlements */,
+				DCD018D3209B5A7A00EC3E6C /* Script */,
+				DCD01800209B177200EC3E6C /* XIBs */,
+				DCD018D2209B500300EC3E6C /* xCodeQuitter-Bridging-Header.h */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC32A2DB2099B245004D9382 /* xCode quitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC32A2EA2099B245004D9382 /* Build configuration list for PBXNativeTarget "xCode quitter" */;
+			buildPhases = (
+				DC32A2D82099B245004D9382 /* Sources */,
+				DC32A2D92099B245004D9382 /* Frameworks */,
+				DC32A2DA2099B245004D9382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xCode quitter";
+			productName = "xCode quitter";
+			productReference = DC32A2DC2099B245004D9382 /* xCode quitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC32A2D42099B244004D9382 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Stupid company";
+				TargetAttributes = {
+					DC32A2DB2099B245004D9382 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC32A2D72099B244004D9382 /* Build configuration list for PBXProject "xCode quitter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC32A2D32099B244004D9382;
+			productRefGroup = DC32A2DD2099B245004D9382 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC32A2DB2099B245004D9382 /* xCode quitter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC32A2DA2099B245004D9382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEE9E0C209AFB69005205D8 /* xCodeQuitterScript.command in Resources */,
+				DCD018D8209B5ABE00EC3E6C /* Assets.xcassets in Resources */,
+				DCD01802209B178000EC3E6C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC32A2D82099B245004D9382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD01812209B1CFD00EC3E6C /* XCodeQuitterController.swift in Sources */,
+				DCD018D1209B4F6300EC3E6C /* RHStatusItemView.m in Sources */,
+				DC32A2E02099B245004D9382 /* AppDelegate.swift in Sources */,
+				DCD0180F209B1CDB00EC3E6C /* XCodeQuitterMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DC32A2E82099B245004D9382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC32A2E92099B245004D9382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		DC32A2EB2099B245004D9382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_ENTITLEMENTS = "xCode quitter/Resources/Entitlements/xCode_quitter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "xCode quitter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.stupidcompany.xCode-quitter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)//xCode quitter/Resources/xCodeQuitter-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		DC32A2EC2099B245004D9382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_ENTITLEMENTS = "xCode quitter/Resources/Entitlements/xCode_quitter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "xCode quitter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.stupidcompany.xCode-quitter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)//xCode quitter/Resources/xCodeQuitter-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC32A2D72099B244004D9382 /* Build configuration list for PBXProject "xCode quitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC32A2E82099B245004D9382 /* Debug */,
+				DC32A2E92099B245004D9382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC32A2EA2099B245004D9382 /* Build configuration list for PBXNativeTarget "xCode quitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC32A2EB2099B245004D9382 /* Debug */,
+				DC32A2EC2099B245004D9382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC32A2D42099B244004D9382 /* Project object */;
+}
